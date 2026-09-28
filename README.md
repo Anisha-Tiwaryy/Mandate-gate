@@ -2,6 +2,8 @@
 
 A working prototype of **Agent Mandates**: a broker-side check for AI agents that trade on a user's behalf.
 
+  **Live demo:** https://mandate-gate-anisha.streamlit.app/
+
 AI agents can now place real orders on Indian brokers from a plain sentence. The safety checks in today's agent skills run on the user's own machine, inside the skill. Mandate Gate sits on the broker's side instead. The user sets a few rules once (which segments, how much money, how many orders, for how long), and every agent order is checked against those rules before it goes to the exchange, whatever the agent does.
 
 It also reads the user's original sentence independently of the agent, because people don't speak in tickers. On NSE's list of 1,946 companies:
